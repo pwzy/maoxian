@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 更新：2020-07-24 11:02:22
+## 更新：2020-07-29 11:04:03
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
 ## 链接：https://sdfjwlkcwoiwefcmslk2csaadskl.xyz/link/aijRKhRzCoiAVHBX?clash=1
 #---------------------------------------------------#
@@ -34,12 +34,13 @@ secret: ''
 
 
 Proxy:
-  - {"name":"免费-俄罗斯04|V2ray","type":"vmess","server":"ru-174238.ddns-only.xyz","port":14407,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"ru-174238.ddns-only.xyz"}}
   - {"name":"入门-台湾01-NF|V2ray","type":"vmess","server":"hinet-142.ddns-only.xyz","port":14601,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"hinet-142.ddns-only.xyz"}}
   - {"name":"入门-台湾02-NF|V2ray","type":"vmess","server":"hinet-143.ddns-only.xyz","port":14602,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"hinet-143.ddns-only.xyz"}}
   - {"name":"入门-沪俄01|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14407,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"ru-174241.ddns-only.xyz"}}
   - {"name":"入门-沪港01|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14433,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-1.ddns-only.xyz"}}
   - {"name":"入门-沪港03|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14437,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-3.ddns-only.xyz"}}
+  - {"name":"入门-鲁新01|V2ray","type":"vmess","server":"xixi-qdyd.ddns-only.xyz","port":14222,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"linode_new3.ddns-only.xyz"}}
+  - {"name":"入门-鲁新02|V2ray","type":"vmess","server":"xixi-qdyd.ddns-only.xyz","port":14223,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"linode_new4.ddns-only.xyz"}}
   - {"name":"入门-鲁港01-NF|V2ray","type":"vmess","server":"hkt-2020221763.ddns-only.xyz","port":14423,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"hkt-2020221763.ddns-only.xyz"}}
 
 Proxy Group:
@@ -47,12 +48,13 @@ Proxy Group:
   name: Proxy
   type: select
   proxies:
-    - 免费-俄罗斯04|V2ray
     - 入门-台湾01-NF|V2ray
     - 入门-台湾02-NF|V2ray
     - 入门-沪俄01|V2ray
     - 入门-沪港01|V2ray
     - 入门-沪港03|V2ray
+    - 入门-鲁新01|V2ray
+    - 入门-鲁新02|V2ray
     - 入门-鲁港01-NF|V2ray
 -
   name: Domestic
