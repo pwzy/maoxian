@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 更新：2020-08-05 03:54:07
+## 更新：2020-08-15 09:36:24
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
 ## 链接：https://sdfjwlkcwoiwefcmslk2csaadskl.xyz/link/aijRKhRzCoiAVHBX?clash=1
 #---------------------------------------------------#
@@ -39,12 +39,11 @@ Proxy:
   - {"name":"入门-新加坡直连01|V2ray","type":"vmess","server":"linode_new3.ddns-only.xyz","port":14222,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"linode_new3.ddns-only.xyz"}}
   - {"name":"入门-新加坡直连02|V2ray","type":"vmess","server":"linode_new4.ddns-only.xyz","port":14223,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"linode_new4.ddns-only.xyz"}}
   - {"name":"入门-沪俄01|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14407,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"ru-174241.ddns-only.xyz"}}
-  - {"name":"入门-沪港04|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14433,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-1.ddns-only.xyz"}}
-  - {"name":"入门-沪港01|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14455,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-5.ddns-only.xyz"}}
-  - {"name":"入门-沪港02|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":11602,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"az-hk01.ddns-only.xyz"}}
+  - {"name":"入门-沪港01|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14433,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-1.ddns-only.xyz"}}
+  - {"name":"入门-沪港02|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14455,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-5.ddns-only.xyz"}}
   - {"name":"入门-沪港03|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14437,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-3.ddns-only.xyz"}}
   - {"name":"入门-香港直连01|V2ray","type":"vmess","server":"az-hk02.ddns-only.xyz","port":11604,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"az-hk02.ddns-only.xyz"}}
-  - {"name":"入门-鲁港01-NF|V2ray","type":"vmess","server":"hkt-2020221763.ddns-only.xyz","port":14423,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"hkt-2020221763.ddns-only.xyz"}}
+  - {"name":"入门-鲁港01-NF|V2ray","type":"vmess","server":"xixi-qdyd.ddns-only.xyz","port":14423,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"hkt-2020221763.ddns-only.xyz"}}
 
 Proxy Group:
 -
@@ -56,7 +55,7 @@ Proxy Group:
     - 入门-新加坡直连01|V2ray
     - 入门-新加坡直连02|V2ray
     - 入门-沪俄01|V2ray
-    - 入门-沪港04|V2ray
+    - 入门-沪港01|V2ray
     - 入门-沪港02|V2ray
     - 入门-沪港03|V2ray
     - 入门-香港直连01|V2ray
