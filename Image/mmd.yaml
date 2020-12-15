@@ -65,7 +65,7 @@ proxies:
   - {"name":"入门-沪港02|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14455,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-5.ddns-only.xyz"}}
   - {"name":"标准-沪日01-NF|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14465,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"jp-gmo01.ddns-only.xyz"}}
   - {"name":"标准-鲁日02-NF|V2ray","type":"vmess","server":"xixi-qdyd.ddns-only.xyz","port":14467,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"jp-gmo02.ddns-only.xyz"}}
-  - {"name":"pwzy|V2ray","type":"vmess","server":"149.129.62.234","port":56284,"uuid":"1e2c0043-98de-4ce8-b28f-0ea123f8afa3","alterId":0,"cipher":"auto","ws-headers":{"Host":"149.129.62.234"}}
+  - {"name":"pwzy|V2ray","type":"vmess","server":"149.129.62.234","port":21254,"uuid":"178c1251-3590-4c8e-8dc3-c477f7268b4c","alterId":0,"cipher":"auto","ws-headers":{"Host":"149.129.62.234"}}
 
 proxy-groups:
 -
