@@ -72,7 +72,6 @@ proxy-groups:
     - 标准-沪日高级|v2ray
     - 入门-新加坡直连01|v2ray
     - 入门-鲁新01|v2ray
-    - 标准-广新01|v2ray
     - 标准-佛新01|v2ray
     - 入门-新加坡直连02|v2ray
     - 入门-沪新01|v2ray
@@ -91,6 +90,7 @@ proxy-groups:
     - 入门-沪港01|V2ray
     - 入门-沪港03|V2ray
     - 入门-沪港02|V2ray
+    - 标准-广新01|v2ray
     - pwzy|V2ray
 -
   name: Domestic
