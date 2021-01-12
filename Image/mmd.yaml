@@ -1,5 +1,5 @@
 #---------------------------------------------------#
-## 更新：2020-12-15 10:27:05
+## 更新：2021-01-12 09:52:28
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
 ## 链接：https://sdfjwlkcwoiwefcmslk2csaadskl.xyz/link/aijRKhRzCoiAVHBX?clash=1
 #---------------------------------------------------#
@@ -87,6 +87,7 @@ proxy-groups:
     - 标准-佛港01|V2ray
     - 标准-佛港02|V2ray
     - 入门-鲁港-NF|V2ray
+    - 标准-广港-NF|V2ray
     - 入门-台湾-NF|V2ray
     - 标准-广台01-NF|V2ray
     - 标准-佛台01-NF|V2ray
@@ -102,7 +103,6 @@ proxy-groups:
     - 入门-沪港02|V2ray
     - 标准-沪日01-NF|V2ray
     - 标准-鲁日02-NF|V2ray
-    - 标准-广港-NF|V2ray
     - pwzy|V2ray
 -
   name: Domestic
