@@ -34,38 +34,17 @@ secret: ''
 
 
 proxies:
-  - {"name":"入门-日本直连|v2ray","type":"vmess","server":"jp-yh08.ddns-only.xyz","port":10041,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"jp-yh08.ddns-only.xyz"}}
-  - {"name":"入门-新加坡直连01|v2ray","type":"vmess","server":"eqiu-sg01.ddns-only.xyz","port":10232,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"eqiu-sg01.ddns-only.xyz"}}
-  - {"name":"入门-鲁新01|v2ray","type":"vmess","server":"xixi-gzyd.ddns-only.xyz","port":10234,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"eqiu-sg02.ddns-only.xyz"}}
-  - {"name":"入门-新加坡直连02|v2ray","type":"vmess","server":"azure-new01.ddns-only.xyz","port":10252,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-new01.ddns-only.xyz"}}
-  - {"name":"入门-沪新01|v2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":10254,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-new02.ddns-only.xyz"}}
-  - {"name":"入门-鲁港-NF|V2ray","type":"vmess","server":"xixi-qdyd.ddns-only.xyz","port":10332,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"na-hkt01.ddns-only.xyz"}}
-  - {"name":"入门-台湾-NF|V2ray","type":"vmess","server":"hinet-128.ddns-only.xyz","port":10402,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"hinet-142.ddns-only.xyz"}}
-  - {"name":"入门-香港直连01|V2ray","type":"vmess","server":"az-hk02.ddns-only.xyz","port":11604,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"az-hk02.ddns-only.xyz"}}
-  - {"name":"入门-沪俄01|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14407,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"ru-174241.ddns-only.xyz"}}
-  - {"name":"入门-沪港01|V2ray","type":"vmess","server":"azure-b2s-1.ddns-only.xyz","port":14433,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-1.ddns-only.xyz"}}
-  - {"name":"入门-沪港03|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14437,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-3.ddns-only.xyz"}}
-  - {"name":"入门-沪港02|V2ray","type":"vmess","server":"xixi-shlt.ddns-only.xyz","port":14455,"uuid":"c9d690ce-f642-3f5f-a3a1-6be6fc3a1c4d","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/yaboviss","ws-headers":{"Host":"azure-b2s-5.ddns-only.xyz"}}
-  - {"name":"pwzy|V2ray","type":"vmess","server":"maodu36.xyz","port":45739,"uuid":"6696bfb4-de0c-4faa-9c7a-392009b4b3ab","alterId":0,"cipher":"auto","ws-headers":{"Host":"maodu36.xyz"}}
-
+  - {"name":"pwzy_ali|V2ray","type":"vmess","server":"maodu36.xyz","port":45739,"uuid":"6696bfb4-de0c-4faa-9c7a-392009b4b3ab","alterId":0,"cipher":"auto","ws-headers":{"Host":"maodu36.xyz"}}
+  - {"name":"pwzy_hongkong|V2ray","type":"vmess","server":"101.32.14.73","port":50275,"uuid":"e7a7096b-e418-43a2-a19d-2dc432b00264","alterId":0,"cipher":"auto","ws-headers":{"Host":"101.32.14.73"}}
+  
 proxy-groups:
 -
   name: Proxy
   type: select
   proxies:
-    - 入门-日本直连|v2ray
-    - 入门-新加坡直连01|v2ray
-    - 入门-鲁新01|v2ray
-    - 入门-新加坡直连02|v2ray
-    - 入门-沪新01|v2ray
-    - 入门-鲁港-NF|V2ray
-    - 入门-台湾-NF|V2ray
-    - 入门-香港直连01|V2ray
-    - 入门-沪俄01|V2ray
-    - 入门-沪港01|V2ray
-    - 入门-沪港03|V2ray
-    - 入门-沪港02|V2ray
-    - pwzy|V2ray
+    - pwzy_ali|V2ray
+    - pwzy_hongkong|V2ray
+
 -
   name: Domestic
   type: select
