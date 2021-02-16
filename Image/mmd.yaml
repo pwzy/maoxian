@@ -35,7 +35,6 @@ secret: ''
 
 proxies:
   - {"name":"pwzy_hongkong|V2ray","type":"vmess","server":"maodu36.xyz","port":50275,"uuid":"e7a7096b-e418-43a2-a19d-2dc432b00264","alterId":0,"cipher":"auto","ws-headers":{"Host":"maodu36.xyz"}}
-  
 proxy-groups:
 -
   name: Proxy
