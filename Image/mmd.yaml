@@ -34,15 +34,13 @@ secret: ''
 
 
 proxies:
-  - {"name":"pwzy_ali|V2ray","type":"vmess","server":"maodu36.xyz","port":45739,"uuid":"6696bfb4-de0c-4faa-9c7a-392009b4b3ab","alterId":0,"cipher":"auto","ws-headers":{"Host":"maodu36.xyz"}}
-  - {"name":"pwzy_hongkong|V2ray","type":"vmess","server":"101.32.14.73","port":50275,"uuid":"e7a7096b-e418-43a2-a19d-2dc432b00264","alterId":0,"cipher":"auto","ws-headers":{"Host":"101.32.14.73"}}
+  - {"name":"pwzy_hongkong|V2ray","type":"vmess","server":"maodu36.xyz","port":50275,"uuid":"e7a7096b-e418-43a2-a19d-2dc432b00264","alterId":0,"cipher":"auto","ws-headers":{"Host":"maodu36.xyz"}}
   
 proxy-groups:
 -
   name: Proxy
   type: select
   proxies:
-    - pwzy_ali|V2ray
     - pwzy_hongkong|V2ray
 
 -
